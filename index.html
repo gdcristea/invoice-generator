@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice creator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/327eb55a53.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="flex-container">
+
+    <div class="invoice">
+        <section class="invoice-header">
+            <h1 class="invoice-title">Invoice creator</h1>
+            <p>Thanks for choosing GoodCorp, LLC!</p>
+        </section>
+        <section class="invoice-body">
+            <div class="invoice-services flex-container">
+                <button id="wash-car" class="flex-container">Wash Car: $10</button>
+                <button id="mow-lawn" class="flex-container">Mow Lawn: $20</button>
+                <button id="pull-weeds" class="flex-container">Pull Weeds: $30</button>
+            </div>
+            <div class="invoice-description-header flex-container">
+                <p>task</p>
+                <p>total</p>
+            </div>
+
+            <div id="invoice-description-body">
+            </div>
+
+            <hr>
+            <div class="invoice-description-footer flex-container">
+                <p>notes</p>
+                <p>total amount</p>
+            </div>
+            <div class="invoice-pay flex-container">
+                <p id="notes"></p>
+                <p id="total-amount">$0</p>
+            </div>
+            <button id="send-invoice" class="flex-container"><i class="fa-solid fa-envelope"></i>Send invoice</button>
+        </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

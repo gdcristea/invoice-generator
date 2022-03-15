@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.invoice-description-header,
+.invoice-description-footer {
+    text-transform: uppercase;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+body,
+button {
+    align-items: center;
+}
+
+.invoice-services,
+.invoice-description-header,
+.invoice-description-footer,
+.invoice-pay {
+    justify-content: space-between;
+}
+
+.invoice {
+    max-width: 550px;
+}
+
+.invoice-header {
+    background-color: #3A69D2;
+    text-align: center;
+    padding: 3.6875rem 6.8125rem 3.1875rem 5.4375rem;
+}
+
+.invoice-title {
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: -0.02rem;
+}
+
+.invoice-header p {line-height: 1.75rem;}
+
+.invoice-body {
+    background-color: #1F2937;
+    padding: 2.5625rem 2.4375rem 8.9375rem;
+}
+
+.invoice-services button {
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: #4A4E74;
+    padding: 0.5625rem 0.8125rem;
+    border: 2px solid #fff;
+}
+
+.invoice-services {
+    margin-bottom: 2.6875rem;
+}
+
+.invoice-services button,
+#send-invoice {
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.invoice-description-header {
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    margin-bottom: 1.1875rem;
+}
+
+.invoice-description-header,
+.invoice-description-footer {
+    color: #D5D4D8;
+}
+
+#invoice-description-body {
+    min-height: 1.6875rem;
+}
+
+.service-and-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.service-description {
+    font-weight: 700;
+    font-size: 1.25rem;
+    display: inline-block;
+}
+
+.remove {
+    font-size: .5rem;
+    margin-left: 1rem;
+    border: none;
+    background-color: #1F2937;
+    cursor: pointer;
+    color: #D5D4D8;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.service-description,
+.price {
+    line-height: 1.25rem;
+}
+
+.dollar {
+    font-weight: 300;
+    color: #918E9B;
+}
+
+#total-amount,
+#notes,
+.service-description {
+    color: #F5F5F5;
+}
+
+hr {
+    border: 1px solid #C3C6DB;
+    margin-top: 1.5rem;;
+}
+
+.invoice-description-footer {
+    font-size: 0.75rem;
+    margin: 0.6875rem 0;
+}
+
+#total-amount {
+    font-size: 2.25rem;
+}
+
+.invoice-description-footer,
+#total-amount {
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+#notes {
+    font-size: 0.75rem;
+    line-height: 0.9375rem;
+}
+
+#send-invoice {
+    border: none;
+    padding: 0.5625rem 0.9375rem;
+    background-color: #3A69D2;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: inherit;
+    width: 100%;
+    margin-top: 3.9375rem;
+}
+
+.fa-envelope {margin-right: .5rem;}
+
